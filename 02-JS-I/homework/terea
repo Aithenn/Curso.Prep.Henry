@@ -1,0 +1,15 @@
+Instrucciones
+1.	En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+	
+•   Variables: Es almacenar una o varias palabras
+•	Strings: Se utiliza para reprensentar texto creando una cadena de palabras  
+•	Funciones: es una función un mini programa el cual tiene características para calcular el valor 
+•	argumentos: Representa una lista de variables cuyos valores son pasados para ser usados por éste.
+•       return: Es el tipo de valor devuelto por la función, y puede ser usado en cualquier parte del programa.
+•	Declaraciones if: se usa para tomar decisiones, este evaluá básicamente una operación lógica
+•	Valores booleanos (true, false): representa un valor de verdad es decir true:verdadero o false:falso 
+        
+2.	Instalar Node y NPM. NPM se incluye con Node.  
+3.	Desde la carpeta Curso.Prep.Henry en la carpeta donde clonaste el repo: ingresa el comando npm install, una vez que termine ingresa el comando npm test JSI.test.js para correr los tests automatizados. Al principio, todos los tests estarán fallados/rotos. Encontrarás las funciones para hacer pasar los tests en el archivo homework.js.
+Deberás ir escribiendo código en homework.js y corriendo de nuevo los tests hasta que TODOS hayan pasado.
+4.	Una vez que termines cada homework, súbela a tu repositorio Curso.Prep.Henry, con los comandos que ya aprendiste a usar en la primera lección de git.
