@@ -6,7 +6,7 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código: 
 
-if(x > y) {
+if(x >= y) {
   return x;
 } else {
     return y;
@@ -87,13 +87,11 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-if(numero === 10) {
-  return true }
-  else if(numero === 5) {
-    return true  }
-    else {
-      return false 
-    }
+  if(numero === 10 || numero === 5) {
+    return true; 
+  } else {
+    return false; 
+  }
 }
 
 function estaEnRango(numero) {
@@ -101,7 +99,11 @@ function estaEnRango(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  return numero < 50 && numero > 20;
+  if(numero < 50 && numero > 20) {
+    return true 
+  }else {
+    return false 
+  }
 }
 
 function esEntero(numero) {
@@ -114,9 +116,9 @@ function esEntero(numero) {
   // Tu código:
 
   if(numero === Math.floor(numero)) {
-    return true }
-    else {
-    return false }  
+    return true; 
+  } else {
+    return false; }
 }
 
 function fizzBuzz(numero) {
@@ -125,12 +127,17 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
 
-  if(numero % 3 === 0 && numero % 5 === 0) return "fizzbuzz"
-  else if(numero % 5 === 0) return "buzz"
-  else if(numero % 3 === 0) return "fizz"
-  else 
+  if(numero % 3 === 0 && numero % 5 === 0) {
+    return "fizzbuzz"
+  } else if(numero % 5 === 0) {
+    return "buzz"
+  }else if(numero % 3 === 0) {
+    return "fizz"
+  }else{ 
   return numero 
+  }
 }
+
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
@@ -158,10 +165,12 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
 
-  if(numero < 2) return false;
-  for (var i = 2; i < numero; i++) {
-    if(numero % i === 0) return false }
-    return true 
+  if(numero < 2) 
+    return false; 
+  for(let i = 2; i < numero; i++) {
+    if(numero % i === 0) return false;  
+  }
+  return true;
 }
 
 function esVerdadero(valor){
